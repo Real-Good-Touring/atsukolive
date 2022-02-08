@@ -1,13 +1,10 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-// import * as dayjs from "dayjs";
 import { Helmet } from "react-helmet";
 import Tour from "./../components/Tour";
 import * as dayjs from "dayjs";
 import dayjsPluginUTC from "dayjs-plugin-utc";
 dayjs.extend(dayjsPluginUTC);
-
-let Tours = [];
 
 // markup
 const IndexPage = ({
@@ -16,6 +13,7 @@ const IndexPage = ({
   },
   extensions,
 }) => {
+  const [tours, setTours] = React.useState([]);
   React.useEffect(() => {
     // tours
     let currentDate = dayjs();
@@ -34,21 +32,15 @@ const IndexPage = ({
     });
 
     // if all events have expired, filter out this tour OR we arent live yet
-    edges = edges.filter(
-      (edge) =>
-        edge.node.frontmatter.events.length > 0 &&
-        dayjs(edge.node.frontmatter.liveTime) < currentDate
+    let filtered = edges.filter(
+      (edge) => edge.node.frontmatter.events.length > 0
     );
 
-    edges.sort(function (a, b) {
-      return (
-        dayjs(b.node.frontmatter.liveTime) - dayjs(a.node.frontmatter.liveTime)
-      );
-    });
-
-    Tours = edges.map((edge) => (
-      <Tour key={edge.node.id} tour={edge.node.frontmatter} />
-    ));
+    setTours(
+      filtered.map((edge) => (
+        <Tour key={edge.node.id} tour={edge.node.frontmatter} />
+      ))
+    );
   }, []);
 
   return (
@@ -70,25 +62,23 @@ const IndexPage = ({
         <meta property="og:type" content="website" />
         <link
           rel="shortcut icon"
-          href="https://www.atsukolive.com/assets/images/icon.png"
+          href="https://www.atsukolive.com/img/icon.png"
         ></link>
       </Helmet>
 
       <body>
         <div className="container">
           <div className="side">
-            <img
-              src="main-graphic.png"
-              width="557"
-              height="965"
-              alt="Hi Graphic"
-            />
-            <a href="https://www.realgoodtouring.com" target="_blank">
+            <img src="./img/main-graphic.png" alt="Hi Graphic" />
+            <a
+              href="https://www.realgoodtouring.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
-                src="rgt-trimmed.png"
-                width="94"
-                height="80"
+                src="./img/rgt-trimmed.png"
                 className="rgt desktop"
+                alt="Real Good Touring"
               />
             </a>
           </div>
@@ -106,14 +96,17 @@ const IndexPage = ({
               </div>
             </div>
 
-            <ul className="date-list">{Tours}</ul>
+            <ul className="date-list">{tours}</ul>
 
-            <a href="https://www.realgoodtouring.com" target="_blank">
+            <a
+              href="https://www.realgoodtouring.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
-                src="rgt-trimmed.png"
-                width="94"
-                height="80"
+                src="./img/rgt-trimmed.png"
                 className="mobile"
+                alt="Real Good Touring"
               />
             </a>
           </div>
@@ -132,17 +125,6 @@ export const AllToursJsonQuery = graphql`
           id
           frontmatter {
             title
-            Image {
-              childImageSharp {
-                gatsbyImageData(
-                  width: 500
-                  blurredOptions: { width: 100 }
-                  placeholder: BLURRED
-                  transformOptions: { cropFocus: NORTH }
-                )
-              }
-            }
-            liveTime
             events {
               ticketsLink
               date

@@ -3,17 +3,13 @@ import React from "react";
 import { remark } from "remark";
 import remarkHtml from "remark-html";
 import "../styles/global.css";
-import Collapsible from "../components/Collapsible";
-import Header from "../components/Header";
 import Tour from "../components/Tour";
 
-function mdStringToHTML(mdString) {
-  if (mdString)
-    return remark().use(remarkHtml).processSync(mdString).toString();
-  else return "";
-}
-
-CMS.registerPreviewTemplate("vip", VipPreview);
+// function mdStringToHTML(mdString) {
+//   if (mdString)
+//     return remark().use(remarkHtml).processSync(mdString).toString();
+//   else return "";
+// }
 
 const TourPreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
   if (!entry) return;
@@ -32,9 +28,8 @@ const TourPreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
   });
   return (
     <body>
-      <Header isHeaderFixed={true} />
       <div className="container">
-        <ul className="date-list">
+        <ul>
           <Tour tour={tour} />
         </ul>
       </div>

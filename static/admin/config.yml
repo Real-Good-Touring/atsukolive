@@ -35,7 +35,15 @@ collections:
               hint: "e.g. Los Angeles, CA",
             }
           - { label: "Venue Name", name: "venueName", widget: "string" }
-          - { label: "Venue", name: "venue", widget: "relation", collection: "venues", search_fields: ["venueName", "location"],  value_field: "venueName",  display_fields: ["venueName", "location"] }
+          - {
+              label: "Venue",
+              name: "venue",
+              widget: "relation",
+              collection: "venues",
+              search_fields: ["venueName", "location"],
+              value_field: "venueName",
+              display_fields: ["venueName", "location"],
+            }
           - { label: "Tickets Link", name: "ticketsLink", widget: "string" }
           - {
               label: "Sold Out",
@@ -59,11 +67,11 @@ collections:
     create: true
     editor:
       preview: false
-    fields:      
-        - {
-            label: "Location",
-            name: "location",
-            widget: "string",
-            hint: "e.g. Los Angeles, CA",
-          }
-          - { label: "Venue Name", name: "venueName", widget: "string" }          
+    fields:
+      - {
+          label: "Location",
+          name: "location",
+          widget: "string",
+          hint: "e.g. Los Angeles, CA",
+        }
+      - { label: "Venue Name", name: "venueName", widget: "string" }

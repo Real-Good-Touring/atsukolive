@@ -12,7 +12,7 @@ function Show(props) {
       <div className="venue">
         <p>{props.location}</p>
         <h3>{props.venueName}</h3>
-        {props.note && props.note != "" && (
+        {props.note && props.note !== "" && (
           <div
             style={{
               color: "#f3c8cd",

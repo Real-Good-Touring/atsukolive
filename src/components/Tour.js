@@ -1,7 +1,5 @@
 import React from "react";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Show from "./Show";
-import * as styles from "./Tour.module.css";
 import * as dayjs from "dayjs";
 import dayjsPluginUTC from "dayjs-plugin-utc";
 dayjs.extend(dayjsPluginUTC);
@@ -30,8 +28,8 @@ const Tour = (props) => {
 
   let key = 0;
   return (
-    <li className={styles.item}>
-      <div className="details">
+    <li>
+      <div>
         {Object.keys(yearDictionary).map((year) => (
           <div key={year}>
             {/* <div className="floating-date">{year}</div> */}
