@@ -148,9 +148,10 @@ li:nth-child(even) .date {
   }
 
   .date {
-    width: 84px;
+    min-width: 6ch;
     font-size: 20px;
-    padding: 12px 0;
+    padding: 12px 8px;
+    white-space: nowrap;
   }
 
   .side {
@@ -181,4 +182,29 @@ li:nth-child(even) .date {
 }
 li:nth-child(even) .tickets:hover {
   transform: Scale(1.1);
+}
+
+.flex {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-shrink-0 {
+  flex-grow: 1;
+}
+
+.flex-basis-1 {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 599px) {
+  .flex {
+    display: block;
+  }
 }
