@@ -8,7 +8,7 @@ events:
     location: "Denver, CO "
     venueName: " Globe Hall"
   - isSoldOut: false
-    note: With guests Nicole Byer,\\u00A0 Taylor Tomlinson,\\u00A0 Daniel Webb
+    note: With guests Nicole Byer, Taylor Tomlinson, Daniel Webb
     date: 02/22/22
     location: Los Angeles, CA
     venueName: "Largo at the Coronet "
