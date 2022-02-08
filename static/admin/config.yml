@@ -35,15 +35,6 @@ collections:
               hint: "e.g. Los Angeles, CA",
             }
           - { label: "Venue Name", name: "venueName", widget: "string" }
-          - {
-              label: "Venue",
-              name: "venue",
-              widget: "relation",
-              collection: "venues",
-              search_fields: ["venueName", "location"],
-              value_field: "venueName",
-              display_fields: ["venueName", "location"],
-            }
           - { label: "Tickets Link", name: "ticketsLink", widget: "string" }
           - {
               label: "Sold Out",
@@ -61,10 +52,11 @@ collections:
               hint: "e.g. *Venue Change",
             }
   - name: "venues"
-    label: "Venues"
+    label: "Venue"
     extension: "md"
     folder: "content/venues"
     create: true
+    hide: true
     editor:
       preview: false
     fields:
