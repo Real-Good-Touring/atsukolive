@@ -49,4 +49,10 @@ events:
     location: Vancouver, CA
     venueName: Biltmore Cabaret
     ticketsLink: https://jflvancouver.com/show/atsuko-okatsuka-biltmore/
+  - isSoldOut: false
+    note: ""
+    date: 03/14/22
+    ticketsLink: https://www.elysiantheater.com/shows/atsuko031422
+    venueName: The Elysian
+    location: Los Angeles, CA
 ---
