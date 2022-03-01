@@ -55,4 +55,10 @@ events:
     location: Vancouver, CA
     venueName: Biltmore Cabaret
     ticketsLink: https://jflvancouver.com/show/atsuko-okatsuka-biltmore/
+  - isSoldOut: false
+    note: ""
+    date: 06/11/22
+    venueName: Turf Club
+    location: Minneapolis, MN
+    ticketsLink: https://www.axs.com/events/427657/atsuko-okatsuka-tickets?skin=turfclub
 ---
