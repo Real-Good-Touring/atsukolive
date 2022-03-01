@@ -61,4 +61,10 @@ events:
     venueName: Turf Club
     location: Minneapolis, MN
     ticketsLink: https://www.axs.com/events/427657/atsuko-okatsuka-tickets?skin=turfclub
+  - isSoldOut: false
+    note: ""
+    date: 07/01/22
+    location: Honolulu, HI
+    venueName: Hawaii Brian's Social Club
+    ticketsLink: https://www.eventbrite.com/e/riseup-live-comedy-u-present-atsuko-okatsuka-tickets-288710489847
 ---
