@@ -39,7 +39,7 @@ events:
     ticketsLink: https://atsuko529.eventbrite.com
   - isSoldOut: false
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
-    date: 03/07/22
+    date: 05/02/22
     ticketsLink: https://www.eventbrite.com/e/netflix-is-a-joke-presents-atsuko-okatsuka-tickets-289955092487
     location: Los Angeles, CA
     venueName: The Elysian
