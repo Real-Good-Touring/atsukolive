@@ -1,19 +1,7 @@
 ---
 title: ATSUKO PRESENTS HI
 events:
-  - isSoldOut: false
-    note: ""
-    date: 01/30/22
-    ticketsLink: https://www.etix.com/ticket/p/2845406/atsuko-okatsuka-denver-globe-hall
-    location: "Denver, CO "
-    venueName: " Globe Hall"
-  - isSoldOut: false
-    note: With guests Nicole Byer, Taylor Tomlinson, Daniel Webb
-    date: 02/21/22
-    location: Los Angeles, CA
-    venueName: "Largo at the Coronet "
-    ticketsLink: https://wl.seetickets.us/event/Atsuko-andFriendsRescheduledfrom113/458284?afflky=LargoAtTheCoronet
-  - isSoldOut: false
+  - isSoldOut: true
     note: ""
     date: 03/14/22
     ticketsLink: https://www.elysiantheater.com/shows/atsuko031422
@@ -49,6 +37,12 @@ events:
     location: "Atlanta, GA "
     venueName: " Club 529"
     ticketsLink: https://atsuko529.eventbrite.com
+  - isSoldOut: false
+    note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
+    date: 05/02/22
+    ticketsLink: https://www.eventbrite.com/e/netflix-is-a-joke-presents-atsuko-okatsuka-tickets-289955092487
+    location: Los Angeles, CA
+    venueName: The Elysian
   - isSoldOut: false
     note: ""
     date: 05/27/22
