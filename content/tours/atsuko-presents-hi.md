@@ -14,7 +14,7 @@ events:
     venueName: The Bell House
     location: Brooklyn, NY
   - isSoldOut: false
-    note: ""
+    note: Low ticket warning
     date: 04/03/22
     venueName: " Antone's"
     location: "Austin, TX "
