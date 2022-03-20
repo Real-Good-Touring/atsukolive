@@ -7,7 +7,7 @@ events:
     ticketsLink: https://www.elysiantheater.com/shows/atsuko031422
     venueName: The Elysian
     location: Los Angeles, CA
-  - isSoldOut: false
+  - isSoldOut: true
     note: ""
     date: 03/25/22
     ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-presents-hi-tickets-267064054777
