@@ -26,7 +26,7 @@ events:
     venueName: " The Secret Group"
     ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
   - isSoldOut: false
-    note: W/ guest Patton Oswalt, Beth Stelling, & Pandora Boxx
+    note: W/ a guest Surprise Guest, Beth Stelling, & Pandora Boxx
     date: 04/11/22
     ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
     venueName: Atsuko & Friends at The Largo
