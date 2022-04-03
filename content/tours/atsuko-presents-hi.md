@@ -1,12 +1,6 @@
 ---
 title: ATSUKO PRESENTS HI
 events:
-  - isSoldOut: true
-    note: ""
-    date: 03/25/22
-    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-presents-hi-tickets-267064054777
-    venueName: The Bell House
-    location: Brooklyn, NY
   - isSoldOut: false
     note: Low ticket warning
     date: 04/03/22
@@ -21,10 +15,10 @@ events:
     ticketsLink: https://www.prekindle.com/event/87235-atsuko-okatsuka-dallas
   - isSoldOut: false
     note: ""
-    date: 04/09/22
-    location: Houston, TX
-    venueName: " The Secret Group"
-    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
+    date: 04/14/22
+    location: "Atlanta, GA "
+    venueName: " Club 529"
+    ticketsLink: https://atsuko529.eventbrite.com
   - isSoldOut: false
     note: W/ a guest Surprise Guest, Beth Stelling, & Pandora Boxx
     date: 04/11/22
@@ -33,10 +27,10 @@ events:
     location: Los Angeles, CA
   - isSoldOut: false
     note: ""
-    date: 04/14/22
-    location: "Atlanta, GA "
-    venueName: " Club 529"
-    ticketsLink: https://atsuko529.eventbrite.com
+    date: 04/09/22
+    location: Houston, TX
+    venueName: " The Secret Group"
+    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
   - isSoldOut: true
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 05/02/22
