@@ -4,8 +4,8 @@ events:
   - isSoldOut: false
     note: Low ticket warning
     date: 04/03/22
-    venueName: " Antone's"
-    location: "Austin, TX "
+    location: Austin, TX
+    venueName: Antone’s
     ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-presents-hi-tickets-203388379117
   - isSoldOut: false
     note: ""
