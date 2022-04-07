@@ -14,7 +14,7 @@ events:
     venueName: " Club 529"
     ticketsLink: https://atsuko529.eventbrite.com
   - isSoldOut: false
-    note: W/ a guest Surprise Guest, Beth Stelling, & Pandora Boxx
+    note: W/ 2 Surprise Guests, and Beth Stelling, & Pandora Boxx
     date: 04/11/22
     ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
     venueName: Atsuko & Friends at The Largo
