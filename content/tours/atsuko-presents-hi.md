@@ -25,6 +25,12 @@ events:
     location: Houston, TX
     venueName: " The Secret Group"
     ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
+  - isSoldOut: false
+    note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
+    date: 04/30/22
+    location: Los Angeles, CA
+    venueName: Dynasty Typewriter at The Hayworth
+    ticketsLink: https://www.eventbrite.com/e/netflix-is-a-joke-presents-atsuko-okatsuko-tickets-313958106147
   - isSoldOut: true
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 05/02/22
@@ -49,10 +55,4 @@ events:
     location: Honolulu, HI
     venueName: Hawaii Brian's Social Club
     ticketsLink: https://www.eventbrite.com/e/riseup-live-comedy-u-present-atsuko-okatsuka-tickets-288710489847
-  - isSoldOut: false
-    note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
-    date: 04/30/22
-    location: Los Angeles, CA
-    venueName: Dynasty Typewriter at The Hayworth
-    ticketsLink: https://www.eventbrite.com/e/netflix-is-a-joke-presents-atsuko-okatsuko-tickets-313958106147
 ---
