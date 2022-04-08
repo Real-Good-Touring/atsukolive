@@ -3,10 +3,10 @@ title: ATSUKO PRESENTS HI
 events:
   - isSoldOut: false
     note: ""
-    date: 04/07/22
-    location: Dallas, TX
-    venueName: " Deep Ellum Art Co."
-    ticketsLink: https://www.prekindle.com/event/87235-atsuko-okatsuka-dallas
+    date: 04/09/22
+    location: Houston, TX
+    venueName: " The Secret Group"
+    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
   - isSoldOut: false
     note: ""
     date: 04/14/22
@@ -19,12 +19,6 @@ events:
     ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
     venueName: Atsuko & Friends at The Largo
     location: Los Angeles, CA
-  - isSoldOut: false
-    note: ""
-    date: 04/09/22
-    location: Houston, TX
-    venueName: " The Secret Group"
-    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
   - isSoldOut: false
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 04/30/22
