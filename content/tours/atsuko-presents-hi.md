@@ -8,17 +8,17 @@ events:
     venueName: " The Secret Group"
     ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
   - isSoldOut: false
-    note: ""
-    date: 04/14/22
-    location: "Atlanta, GA "
-    venueName: " Club 529"
-    ticketsLink: https://atsuko529.eventbrite.com
-  - isSoldOut: false
     note: W/ 2 Surprise Guests, and Beth Stelling, & Pandora Boxx
     date: 04/11/22
     ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
     venueName: Atsuko & Friends at The Largo
     location: Los Angeles, CA
+  - isSoldOut: false
+    note: ""
+    date: 04/14/22
+    location: "Atlanta, GA "
+    venueName: " Club 529"
+    ticketsLink: https://atsuko529.eventbrite.com
   - isSoldOut: false
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 04/30/22
