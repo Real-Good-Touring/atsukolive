@@ -28,7 +28,7 @@ const IndexPage = ({
           if (!event.date) return true;
           else {
             let eventDay = dayjs(event.date).startOf("day");
-            let currentDay = currentDate.startOf("day").add(-1, "day");
+            let currentDay = currentDate.startOf("day").add(-2, "day");
             return eventDay >= currentDay;
           }
         }
