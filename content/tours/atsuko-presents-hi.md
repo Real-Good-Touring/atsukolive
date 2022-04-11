@@ -2,12 +2,6 @@
 title: ATSUKO PRESENTS HI
 events:
   - isSoldOut: false
-    note: ""
-    date: 04/09/22
-    location: Houston, TX
-    venueName: " The Secret Group"
-    ticketsLink: https://www.eventbrite.com/e/atsuko-okatsuka-tickets-210038188877
-  - isSoldOut: false
     note: W/ 2 Surprise Guests, and Beth Stelling, & Pandora Boxx
     date: 04/11/22
     ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
