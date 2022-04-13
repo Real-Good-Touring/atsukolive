@@ -1,13 +1,7 @@
 ---
 title: ATSUKO PRESENTS HI
 events:
-  - isSoldOut: false
-    note: W/ 2 Surprise Guests, and Beth Stelling, & Pandora Boxx
-    date: 04/11/22
-    ticketsLink: https://wl.seetickets.us/event/-AtsukoandFriends/469469?afflky=LargoAtTheCoronet
-    venueName: Atsuko & Friends at The Largo
-    location: Los Angeles, CA
-  - isSoldOut: false
+  - isSoldOut: true
     note: ""
     date: 04/14/22
     location: "Atlanta, GA "
