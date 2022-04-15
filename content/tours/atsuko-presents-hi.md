@@ -1,12 +1,6 @@
 ---
 title: ATSUKO PRESENTS HI
 events:
-  - isSoldOut: true
-    note: ""
-    date: 04/14/22
-    location: "Atlanta, GA "
-    venueName: " Club 529"
-    ticketsLink: https://atsuko529.eventbrite.com
   - isSoldOut: false
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 04/30/22
