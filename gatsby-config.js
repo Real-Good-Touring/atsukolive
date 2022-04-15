@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.atsukolive.com",
-    title: "Atsuko Presents Hi",
+    title: "Atsuko Presents The Intruder",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",

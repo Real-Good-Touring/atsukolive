@@ -51,7 +51,7 @@ const IndexPage = ({
     <>
       <Helmet>
         <meta charset="UTF-8" />
-        <title>Atsuko Presents Hi</title>
+        <title>Atsuko Presents The Intruder</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta
           name="viewport"
