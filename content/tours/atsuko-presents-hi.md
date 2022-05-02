@@ -1,12 +1,6 @@
 ---
 title: ATSUKO PRESENTS THE INTRUDER
 events:
-  - isSoldOut: false
-    note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
-    date: 04/30/22
-    location: Los Angeles, CA
-    venueName: Dynasty Typewriter at The Hayworth
-    ticketsLink: https://www.eventbrite.com/e/netflix-is-a-joke-presents-atsuko-okatsuko-tickets-313958106147
   - isSoldOut: true
     note: "Netflix Is A Joke Presents: Atsuko Okatsuka"
     date: 05/02/22
