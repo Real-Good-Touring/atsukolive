@@ -30,5 +30,5 @@ events:
     date: 08/03/22
     location: Edinburgh, Scotland Fringe fest
     ticketsLink: https://www.pleasance.co.uk/event/atsuko-okatsuka-intruder/performances
-    venueName: Pleasance theater
+    venueName: Pleasance Theater
 ---
