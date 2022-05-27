@@ -31,4 +31,10 @@ events:
     location: Edinburgh, Scotland Fringe fest
     ticketsLink: https://www.pleasance.co.uk/event/atsuko-okatsuka-intruder/performances
     venueName: Pleasance Theater
+  - isSoldOut: false
+    note: Performace dates July 21 - 29 8 shows
+    date: 07/21/22
+    location: "Montreal, Canada "
+    ticketsLink: https://montreal.hahaha.com/en/shows/atsuko-presents-the-intruder
+    venueName: JFL @ Théâtre Sainte-Catherine
 ---
