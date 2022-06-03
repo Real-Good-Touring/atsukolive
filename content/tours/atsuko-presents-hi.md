@@ -20,7 +20,7 @@ events:
     venueName: Cornerstone
     ticketsLink: https://wl.seetickets.us/event/Atsuko-Okatsuka/479164?afflky=CornerstoneBerkeley
   - isSoldOut: false
-    note: 9:30pm show
+    note: 9:30pm Late Show
     date: 07/17/22
     location: Berkeley, CA
     venueName: Cornerstone
