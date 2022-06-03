@@ -13,12 +13,18 @@ events:
     location: Honolulu, HI
     venueName: Hawaii Brian's Social Club
     ticketsLink: https://www.eventbrite.com/e/riseup-live-comedy-u-present-atsuko-okatsuka-tickets-288710489847
-  - isSoldOut: true
-    note: ""
+  - isSoldOut: false
+    note: 7:00pm show
     date: 07/17/22
     location: Berkeley, CA
     venueName: Cornerstone
     ticketsLink: https://wl.seetickets.us/event/Atsuko-Okatsuka/479164?afflky=CornerstoneBerkeley
+  - isSoldOut: false
+    note: 9:30pm show
+    date: 07/17/22
+    location: Berkeley, CA
+    venueName: Cornerstone
+    ticketsLink: https://wl.seetickets.us/event/Atsuko-Okatsuka-2nd-Show/487578?afflky=CornerstoneBerkeley
   - isSoldOut: false
     note: Performace dates July 21 - 29 8 shows
     date: 07/21/22
