@@ -3,12 +3,6 @@ title: ATSUKO PRESENTS THE INTRUDER
 events:
   - isSoldOut: false
     note: ""
-    date: 06/11/22
-    venueName: Turf Club
-    location: Minneapolis, MN
-    ticketsLink: https://www.axs.com/events/427657/atsuko-okatsuka-tickets?skin=turfclub
-  - isSoldOut: false
-    note: ""
     date: 07/01/22
     location: Honolulu, HI
     venueName: Hawaii Brian's Social Club
@@ -25,6 +19,12 @@ events:
     location: Berkeley, CA
     venueName: Cornerstone
     ticketsLink: https://wl.seetickets.us/event/Atsuko-Okatsuka-2nd-Show/487578?afflky=CornerstoneBerkeley
+  - isSoldOut: false
+    note: Atsuko and Friends w/ Fred Armisen, Margaret Cho, Irene Tu!
+    date: 07/18/22
+    location: Los Angeles, CA
+    venueName: The Largo at the Coronet
+    ticketsLink: https://wl.seetickets.us/event/Atsuko-andFriends/486688?afflky=LargoAtTheCoronet
   - isSoldOut: false
     note: Performace dates July 21 - 29 8 shows
     date: 07/21/22
