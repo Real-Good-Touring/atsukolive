@@ -1,12 +1,6 @@
 ---
 title: ATSUKO PRESENTS THE INTRUDER
 events:
-  - isSoldOut: false
-    note: ""
-    date: 07/01/22
-    location: Honolulu, HI
-    venueName: Hawaii Brian's Social Club
-    ticketsLink: https://www.eventbrite.com/e/riseup-live-comedy-u-present-atsuko-okatsuka-tickets-288710489847
   - isSoldOut: true
     note: 7:00pm Early Show
     date: 07/17/22
