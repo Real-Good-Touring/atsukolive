@@ -2,12 +2,6 @@
 title: ATSUKO PRESENTS THE INTRUDER
 events:
   - isSoldOut: false
-    note: Performace dates July 21 - 29 8 shows
-    date: 07/31/22
-    location: "Montreal, Canada "
-    ticketsLink: https://montreal.hahaha.com/en/shows/atsuko-presents-the-intruder
-    venueName: JFL @ Théâtre Sainte-Catherine
-  - isSoldOut: false
     note: August 3rd - 29th
     date: 08/03/22
     location: Edinburgh, Scotland Fringe fest
