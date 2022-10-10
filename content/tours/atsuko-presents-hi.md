@@ -1,5 +1,5 @@
 ---
-title: ATSUKO PRESENTS THE INTRUDER
+title: ATSUKO and Friends
 events:
   - isSoldOut: false
     note: August 3rd - 29th
